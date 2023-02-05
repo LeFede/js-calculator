@@ -1,0 +1,10 @@
+const $ = (sel) => document.querySelector(sel)
+const $$ = (sel) => document.querySelectorAll(sel)
+
+export const $$numbers = $$('[data-number]')
+export const $$operations = $$('[data-operation]')
+export const $equals = $('[data-equals]')
+export const $del = $('[data-del]')
+export const $ac = $('[data-ac]')
+export const $previous = $('[data-previous]')
+export const $current = $('[data-current]')
